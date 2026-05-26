@@ -1,18 +1,31 @@
+/* SMACCS Methodology */
+
+/* BASE */
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Source Sans 3", sans-serif;
 }
 
-.logo {
-    width: 200px;
+h1,
+h2 {
+    margin: 0;
+    
 }
 
-.avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+h1 {
+    font-size: 20px;
 }
+
+h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* LAYOUT */
 
 .container {
     width: 600px;
@@ -32,39 +45,10 @@ body {
     padding-top: 10px;
 }
 
-.poster-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
+/* MODULE */
 
-h1,
-h2 {
-    margin: 0;
-    
-}
-
-h1 {
-    font-size: 20px;
-}
-
-h2{
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.poster-nameloc {
-    padding-left: 10px;
-}
-
-.poster-img {
-    width: 600px;
-    height: 600px;
-    margin-bottom: 30px;
-}
-
-.icon {
-    width: 40px;
+.logo {
+    width: 200px;
 }
 
 .ml {
@@ -75,7 +59,57 @@ h2{
     font-weight: 900;
 }
 
+.icon {
+    width: 40px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.poster-img {
+    width: 600px;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.poster-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.poster-nameloc {
+    padding-left: 10px;
+}
+
+
+/* STATE */
+
 .icon:hover,
 .icon:focus { 
     opacity: 50%;
 }
+
+
+/* THEME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
