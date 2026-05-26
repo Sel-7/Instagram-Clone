@@ -6,6 +6,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Oldagram</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
 
@@ -13,21 +16,25 @@
     <body>
         <div class="container">
             <header class="heading">
-                <img class="mb-bottom logo" src="./images/logo.png">
-                <img class="mb-bottom avatar" src="./images/user-avatar.png">
+                <img class="logo" src="./images/logo.png">
+                <img class="avatar" src="./images/user-avatar.png">
             </header>
 
             <main>
                 <section class="first-post">
-                    <img src="./images/avatar-vangogh.jpg">
-                    <h1>Vincent Van Gogh</h1>
-                    <h2>Zudert, Netherlands</h2>
-                    <img src="./images/post-vangogh.jpg">
-                    <img src="./images/icon-heart.png">
-                    <img src="./images/icon-comment.png">
-                    <img src="./images/icon-dm.png">
-                    <p>21 likes</p>
-                    <p><span>vincey1853</span> just took a few mushrooms lol</p>
+                    <div class="ml poster-info">
+                        <img class="avatar" src="./images/avatar-vangogh.jpg">
+                        <div class="poster-nameloc">
+                            <h1>Vincent Van Gogh</h1>
+                            <h2>Zudert, Netherlands</h2>
+                        </div>
+                    </div>
+                    <img class="poster-img" src="./images/post-vangogh.jpg">
+                    <img class="ml icon" src="./images/icon-heart.png">
+                    <img class="ml icon" src="./images/icon-comment.png">
+                    <img class="ml icon" src="./images/icon-dm.png">
+                    <p class="ml bold">21 likes</p>
+                    <p class="ml"><span class="bold">vincey1853</span> just took a few mushrooms lol</p>
                 </section>
             </main>
         </div>
