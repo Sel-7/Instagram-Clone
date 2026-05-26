@@ -75,3 +75,8 @@ h2{
 .bold {
     font-weight: 900;
 }
+
+.icon:hover,
+.icon:focus { 
+    opacity: 50%;
+}
